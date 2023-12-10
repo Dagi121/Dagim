@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign Up</title>
+        <style>
+            body{
+                background-color: #CBD0D8;
+            }
+            .div{
+                width: 50%;
+                height: 400px;
+                margin-top: 100px;
+                margin-left: 25%;
+                background-color: #030517;
+                border-radius: 10px;
+                overflow-y: scroll;
+                box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.5);
+            }
+            form{
+                padding-top: 20px;
+                padding-left: 80px;
+            }
+            input{
+                border: none;
+                border-radius: 5px;
+                padding: 30px;
+            }
+            .email{
+                width: 456px;
+            }
+            .name{
+                width: 195px;
+            }
+            .free{
+                padding-top: 15px;
+                padding-left: 80px;
+                font-size: 40px;
+                color: white;
+            }
+            .sign{
+                width: 205px;
+                border-radius: 50px;
+                margin-left: 140px;
+                background-color: #269cf0;
+                color: white;
+                font-size: 20px;
+                padding: 0px;
+                height: 65px;
+            }
+            .name:hover{
+                height: 35px;  
+            }
+            .email:hover{
+                height: 35px;
+            }
+            .sign:hover{
+                width: 215px;
+                height: 75px;
+                border-radius: 55px;
+            }
+            footer{
+                color: white;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+            .hr{
+                width: 60%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div">
+            <div class="free">
+                <span>Sign Up...</span>
+            </div>
+            <form method="post" action="secondhome.html">
+                <div>
+                    <input class="name" type="text" name="Firstname" placeholder="First name" required>
+                
+                    <input class="name" type="text" name="Lastname" placeholder="Last name" required>
+                </div>
+                <br>
+                <div>
+                    <input class="email" type="email" name="Email" placeholder="Email" required>
+                </div>
+                <br>
+                <div>
+                    <input class="email" type="password" name="password" placeholder="password" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <input class="sign" type="submit" name="Sign up" value="Sign Up">
+                </div>
+            </form>
+            <br>
+            <br>
+            <hr class="hr">
+            <footer>
+                <div>
+                    <small>&copy Copyright 2023 By DGI. All Rights Reserved</small>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
